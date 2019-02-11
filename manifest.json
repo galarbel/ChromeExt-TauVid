@@ -1,0 +1,10 @@
+{
+    "name": "TAU Video - Get video link",
+    "version": "0.6.3",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": ["contentscript.js"],
+        "matches": ["https://video.tau.ac.il/index.php?*", "http://video.tau.ac.il/index.php?*", "https://ivideo.tau.ac.il/index.php?*", "http://ivideo.tau.ac.il/index.php?*"]
+    }]
+}
+
